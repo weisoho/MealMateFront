@@ -1,0 +1,177 @@
+.profile-page {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding-bottom: 20px;
+  }
+  
+  .user-card {
+    background-color: #ff6b6b;
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .user-info {
+    flex: 1;
+    margin-left: 15px;
+  }
+  
+  .user-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .user-level {
+    display: inline-block;
+  }
+  
+  .level-tag {
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2px 8px;
+    border-radius: 10px;
+  }
+  
+  .points-info {
+    text-align: center;
+  }
+  
+  .points-value {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .points-label {
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  
+  .order-entry {
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .entry-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .view-all {
+    display: flex;
+    align-items: center;
+  }
+  
+  .view-all-text {
+    font-size: 13px;
+    color: #999;
+  }
+  
+  .arrow {
+    font-size: 16px;
+    color: #999;
+    margin-left: 5px;
+  }
+  
+  .order-types {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .type-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .type-icon {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .type-name {
+    font-size: 13px;
+    color: #666;
+  }
+  
+  .menu-list {
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 8px;
+  }
+  
+  .menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+  
+  .item-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .item-title {
+    font-size: 15px;
+    color: #333;
+  }
+  
+  .item-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-desc {
+    font-size: 13px;
+    color: #999;
+    margin-right: 5px;
+  }
+  
+  .item-arrow {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .customer-service {
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .service-text {
+    font-size: 15px;
+    color: #666;
+  }
