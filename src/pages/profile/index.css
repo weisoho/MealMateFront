@@ -1,177 +1,253 @@
 .profile-page {
-    background-color: #f5f5f5;
-    min-height: 100vh;
-    padding-bottom: 20px;
-  }
-  
-  .user-card {
-    background-color: #ff6b6b;
-    padding: 20px 15px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-  }
-  
-  .user-avatar {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-  }
-  
-  .user-info {
-    flex: 1;
-    margin-left: 15px;
-  }
-  
-  .user-name {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .user-level {
-    display: inline-block;
-  }
-  
-  .level-tag {
-    font-size: 12px;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 2px 8px;
-    border-radius: 10px;
-  }
-  
-  .points-info {
-    text-align: center;
-  }
-  
-  .points-value {
-    font-size: 18px;
-    font-weight: bold;
-    display: block;
-  }
-  
-  .points-label {
-    font-size: 12px;
-    opacity: 0.8;
-  }
-  
-  .order-entry {
-    background-color: #fff;
-    margin: 15px;
-    border-radius: 8px;
-    padding: 15px;
-  }
-  
-  .entry-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-  
-  .entry-title {
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .view-all {
-    display: flex;
-    align-items: center;
-  }
-  
-  .view-all-text {
-    font-size: 13px;
-    color: #999;
-  }
-  
-  .arrow {
-    font-size: 16px;
-    color: #999;
-    margin-left: 5px;
-  }
-  
-  .order-types {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .type-item {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .type-icon {
-    font-size: 24px;
-    margin-bottom: 8px;
-  }
-  
-  .type-name {
-    font-size: 13px;
-    color: #666;
-  }
-  
-  .menu-list {
-    background-color: #fff;
-    margin: 15px;
-    border-radius: 8px;
-  }
-  
-  .menu-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    border-bottom: 1px solid #f5f5f5;
-  }
-  
-  .menu-item:last-child {
-    border-bottom: none;
-  }
-  
-  .item-left {
-    display: flex;
-    align-items: center;
-  }
-  
-  .item-icon {
-    font-size: 18px;
-    margin-right: 10px;
-  }
-  
-  .item-title {
-    font-size: 15px;
-    color: #333;
-  }
-  
-  .item-right {
-    display: flex;
-    align-items: center;
-  }
-  
-  .item-desc {
-    font-size: 13px;
-    color: #999;
-    margin-right: 5px;
-  }
-  
-  .item-arrow {
-    font-size: 16px;
-    color: #ccc;
-  }
-  
-  .customer-service {
-    background-color: #fff;
-    margin: 15px;
-    border-radius: 8px;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  .service-text {
-    font-size: 15px;
-    color: #666;
-  }
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding-bottom: 70px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.user-card {
+  background-color: #ff6b6b;
+  padding: 25px 20px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.user-avatar {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  object-fit: cover;
+}
+
+.user-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.user-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.user-level {
+  display: inline-block;
+}
+
+.level-tag {
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 4px 12px;
+  border-radius: 15px;
+}
+
+.points-info {
+  margin-top: 10px;
+}
+
+.points-value {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.points-label {
+  font-size: 16px;
+  opacity: 0.8;
+  margin-left: 5px;
+}
+
+.order-entry {
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.entry-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.view-all {
+  display: flex;
+  align-items: center;
+}
+
+.view-all-text {
+  font-size: 16px;
+  color: #999;
+}
+
+.arrow {
+  font-size: 18px;
+  color: #999;
+  margin-left: 5px;
+}
+
+.order-types {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.type-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.type-name {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+
+.menu-list {
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #f5f5f5;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.item-left {
+  display: flex;
+  align-items: center;
+}
+
+.item-icon {
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.item-title {
+  font-size: 20px;
+  color: #333;
+}
+
+.item-right {
+  display: flex;
+  align-items: center;
+}
+
+.item-desc {
+  font-size: 16px;
+  color: #999;
+  margin-right: 8px;
+}
+
+.item-arrow {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.customer-service {
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.service-text {
+  font-size: 20px;
+  color: #666;
+}
+
+/* 在现有样式的基础上添加以下样式 */
+
+.not-logged-in {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.login-card {
+  background-color: #fff;
+  margin: 15px;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.default-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.login-tip {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.login-btn {
+  background-color: #ff6b6b;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(255, 107, 107, 0.3);
+}
+
+/* 在现有样式的基础上添加以下样式 */
+
+.login-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.login-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.login-arrow {
+  font-size: 24px;
+  color: #fff;
+  margin-left: 10px;
+}

@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { View, Text, Image, ScrollView } from '@tarojs/components'
-import TabBar from '../../components/TabBar'
 import './index.css'
 
 export default function MyOrders() {
@@ -116,7 +115,6 @@ export default function MyOrders() {
           </View>
         )}
       </ScrollView>
-      <TabBar current='my-orders' />
     </View>
   )
 }
